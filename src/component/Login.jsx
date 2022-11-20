@@ -30,7 +30,7 @@ export default function Login() {
     }
   }
   const navigateTo = () => {
-    navigate('/detail')
+    navigate('/sync')
   }
   const [flag, setFlag] = useState(false)
   useEffect(() => {
@@ -86,7 +86,7 @@ export default function Login() {
     }
     else {
     return (
-      <Navigate to='/tes' />
+      <Navigate to='/login' />
     )
   }
 }

@@ -119,7 +119,7 @@ export default function Register() {
     }
     else {
         return (
-          <Navigate to='/detail' />
+          <Navigate to='/login' />
         )
       }
 }
